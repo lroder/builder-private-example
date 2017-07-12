@@ -18,12 +18,12 @@
 auto_accept: True
 # ... but only from within subnet. 
 # this value is replaced by `scripts/init-aws-master.sh` with the internal IP address
-interface: 'replaced-with-private-ip-address'
+interface: 0.0.0.0
 
 # default is warn
 log_level: info
 
-# which backend interfaces we should consult to find state infor
+# which backend interfaces we should consult to find state info
 fileserver_backend:
     - roots
 
