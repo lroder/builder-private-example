@@ -1,12 +1,12 @@
 journal:
-    api_url: http://baseline--api-dummy.thedailybugle.internal
-    api_url_public: https://baseline--api-dummy.thedailybugle.org
-    api_key: a_authentication_key
+    api_url: http://api.elife-test.local
+    api_url_public: https://api.elife-test.info
+    api_key: 78c9fadbe406cc7abc1336231bd5df07
     side_by_side_view_url: null
-    default_host: dailybugle.org
+    default_host: elife-test.info
     observer_url: http://prod--observer.elifesciences.org
     session_name: journal
-    secret: random_string
+    secret: 6682f0d8895416c4c1b7a3d5713e27d7
     web_users: {}
     gtm_id: null
     disqus_domain: null
@@ -24,3 +24,4 @@ journal:
 elife:
     redis:
         maxmemory: 512
+
